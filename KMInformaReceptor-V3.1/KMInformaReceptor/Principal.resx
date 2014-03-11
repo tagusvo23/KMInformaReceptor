@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="CMSMnuventana.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>111, 17</value>
+  </metadata>
+  <metadata name="SFDRuta.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>245, 17</value>
+  </metadata>
+  <data name="VSGAlertasAtendidas.ColumnInfo" xml:space="preserve">
+    <value>14,0,0,0,0,85,Columns:0{Width:38;Caption:"Num.";Style:"TextAlign:RightTop;";}	1{Width:66;Caption:"Usuario";Visible:False;}	2{Width:50;Caption:"LayOut";Visible:False;}	3{Width:56;Caption:"Formato";Visible:False;}	4{Caption:"Aplicación";Visible:False;}	5{Caption:"Tipo Reg";Visible:False;}	6{Caption:"IP_Adres";Visible:False;}	7{Caption:"PC_Name";Visible:False;}	8{Caption:"Fecha/Hora";Visible:False;}	9{Width:140;Caption:"Fecha/Hora Atn.";Style:"TextAlign:CenterTop;";}	10{Width:77;Caption:"Usuario Atn.";Style:"TextAlign:CenterTop;";StyleFixed:"TextAlign:CenterTop;";}	11{Width:301;Caption:"Observaciones";}	12{Width:138;Caption:"Estado del Seguimiento";Style:"TextAlign:CenterTop;";}	13{Width:120;Caption:"Fecha/Hora Modificación";}	</value>
+  </data>
+  <data name="VSGAlertasAtendidas.StyleInfo" xml:space="preserve">
+    <value>Normal{Font:Arial, 8.25pt, style=Bold;BackColor:DarkGray;}	Alternate{}	Fixed{BackColor:LightSteelBlue;ForeColor:Black;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:DarkGray;ForeColor:HighlightText;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="VSGAlertas.ColumnInfo" xml:space="preserve">
+    <value>16,0,0,0,0,85,Columns:0{Width:38;Caption:"Num.";AllowDragging:False;AllowResizing:False;AllowEditing:False;Style:"TextAlign:RightBottom;";}	1{Width:70;AllowSorting:False;Caption:"Usuario";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	2{Width:48;AllowSorting:False;Caption:"LayOut";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	3{Width:59;AllowSorting:False;Caption:"Tipo Reg.";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	4{Width:140;Caption:"Fecha/Hora";AllowDragging:False;AllowResizing:False;AllowEditing:False;Style:"Format:""G"";DataType:System.String;TextAlign:LeftCenter;";StyleFixed:"TextAlign:CenterTop;";}	5{Width:105;AllowSorting:False;Caption:"Filtro ";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	6{Width:95;AllowSorting:False;Caption:"IP_Adress";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	7{AllowSorting:False;Caption:"PC_Name";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	8{Width:135;Caption:"Descripción Filtro";AllowEditing:False;Style:"BackColor:170, 170, 170;TextAlign:LeftCenter;";}	9{Width:41;Caption:"Escala";AllowEditing:False;Style:"BackColor:170, 170, 170;TextAlign:CenterTop;";StyleFixed:"TextAlign:CenterTop;";}	10{Width:150;Caption:"Mensaje";AllowEditing:False;Style:"TextAlign:LeftTop;";}	11{AllowSorting:False;Caption:"Limite";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	12{AllowSorting:False;Caption:"Tiempo";Visible:False;AllowDragging:False;AllowResizing:False;AllowEditing:False;}	13{Width:150;Caption:"Referencia";AllowEditing:False;Style:"TextAlign:LeftCenter;";}	14{Width:100;Caption:"Estatus";AllowDragging:False;AllowResizing:False;AllowEditing:False;Style:"ForeColor:WindowFrame;TextAlign:LeftCenter;";StyleFixed:"TextAlign:CenterTop;";}	15{Width:150;AllowSorting:False;Caption:"Condición";AllowEditing:False;Style:"Margins:1, 0, 0, 0;TextAlign:LeftCenter;TextEffect:Flat;TextDirection:Normal;Trimming:None;";}	</value>
+  </data>
+  <data name="VSGAlertas.StyleInfo" xml:space="preserve">
+    <value>Normal{Font:Arial, 8.25pt, style=Bold;BackColor:DarkGray;ForeColor:InfoText;}	Alternate{BackColor:Silver;Margins:1, 0, 0, 0;TextEffect:Flat;TextDirection:Normal;Trimming:None;}	Fixed{BackColor:Teal;ForeColor:WhiteSmoke;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:DarkGray;ForeColor:HighlightText;}	Focus{ForeColor:InactiveCaptionText;}	Editor{BackColor:DarkGray;}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{BackColor:DarkGray;}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:Teal;}	FilterEditor{}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="VSGReferencias.StyleInfo" xml:space="preserve">
+    <value>Normal{Font:Tahoma, 8.25pt;}	Alternate{}	Fixed{BackColor:Control;ForeColor:ControlText;Border:Flat,1,ControlDark,Both;BackgroundImageLayout:Hide;}	Highlight{BackColor:Highlight;ForeColor:HighlightText;}	Focus{}	Editor{}	Search{BackColor:Highlight;ForeColor:HighlightText;}	Frozen{BackColor:Beige;}	NewRow{ForeColor:GrayText;}	EmptyArea{BackColor:AppWorkspace;Border:Flat,1,ControlDarkDark,Both;}	SelectedColumnHeader{}	SelectedRowHeader{}	GrandTotal{BackColor:Black;ForeColor:White;}	Subtotal0{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal1{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal2{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal3{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal4{BackColor:ControlDarkDark;ForeColor:White;}	Subtotal5{BackColor:ControlDarkDark;ForeColor:White;}	FilterEditor{}	FirstCustomStyle{}	</value>
+  </data>
+  <data name="vseFondo.GridDefinition" xml:space="preserve">
+    <value>3.96825396825397:False:False;14.484126984127:False:False;6.94444444444444:False:False;3.76984126984127:False:False;29.5634920634921:False:False;3.76984126984127:False:False;20.6349206349206:False:False;3.76984126984127:False:False;5.15873015873016:False:False;7.53968253968254:False:False;0.396825396825397:False:False;	80.327868852459:False:False;0.585480093676815:False:False;19.0866510538642:False:False;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>81</value>
+  </metadata>
+</root>

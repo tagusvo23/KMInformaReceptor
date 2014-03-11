@@ -1,0 +1,35 @@
+
+Se modifico: cambiando los elementos de la matriz que se llena con la tabla testatusalarma
+
+    Public MatrizEstatus(5, 3) As String      anterior 
+    Public MatrizEstatus(25, 3) As String     actual
+    
+    
+    Nota. hay que corregir haciendo dinamico el llenado de la matriz.
+    
+    
+2011-01-18
+
+se modifico: cambiando el formato de variable de fecha de "yyyyMMdd HH24:MI:SS:SSSSS" a "yyyy-MM-dd HH24:MI:SS:SSSSS"
+             y se reviso todos las condiciones que tubieran formato correcto.
+             
+             
+2011-01-27
+
+se modifico. cambio de la condicion de validacaión del dobleclic en el grid de VSGAlertasAtendidas, (seguimiento de alertas).        
+
+2011-03-25
+
+se modifico en el objeto matriz de referencias(MatrizEstatus), haciendolo dinamico.
+
+2011-09-29
+
+se modifico: cambiando el objeto de fecha inicial para que aparesca desde el principio la fecha del día.
+
+Se modifico adicionando cambio en tiempo de espera en las consultas de las tablas tbitalarma y tbitobse. 2013-03-22 V 1.0.1.6. 
+
+Se modifico numero de version solo para verificar que en el equipo del usuario se hiciera el cambio de version. 2013-05-17 V 1.0.1.7. 
+
+Se modifico where de formato de fecha en sqlsrver y se cambiaron las dll de componenone para el frame 3.5, esto con el asesoramiento de mike version. 2013-05-17 V 1.0.1.8
+
+    
